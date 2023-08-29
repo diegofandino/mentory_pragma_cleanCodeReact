@@ -1,0 +1,26 @@
+$base-color: #0c0c0c;
+.card{
+    display: flex;
+    flex-direction: column;
+    &__header {
+        background: #fff;
+        color: $base-color;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        h3,h5{
+            margin:  0;
+        }
+    }
+    &__body{
+        background: #61DAFB;
+        color: $base-color;
+        padding: 15px;
+        font-size: 0.8em;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}

@@ -1,0 +1,11 @@
+.calculate {
+    padding: 15px;
+    .calculate__form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .calculate__input {
+        padding: 10px;
+    }
+}
