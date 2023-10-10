@@ -6,7 +6,7 @@ const GenericCard = ({ title, imageName }) => {
   return (
     <div className='genericCard'>
         <img src={require(`../../assets/${imageName}.png`)} alt={imageName} srcset="" />
-        <h3>{ title }</h3>        
+        <h3>{ title }</h3>
     </div>
   )
 }

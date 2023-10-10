@@ -8,6 +8,11 @@ import Posts from './components/Posts/Posts';
 import PostsWithHooks from './components/Posts/PostsWithHooks';
 import PostWithHookCaro from './components/Posts/PostWithHookCaro';
 import { GenericCard, GenericCardComposition } from './components/GenericCard';
+import userIcon from "./assets/userIcon.png";
+import { SingleResponsability } from './components/SOLID/SingleResponsability';
+import { OpenCloseButton } from './components/SOLID/OpenClose';
+import { LiskovPrinciple } from './components/SOLID/LiskovPrinciple';
+import { InterfaceSegregation } from './components/SOLID/InterfaceSegregation';
 
 
 function App() {
@@ -32,8 +37,18 @@ function App() {
        {/* <PostWithHookCaro /> */}
 
       {/* 3. CLEANCODE WITH USE COMPOSITION COMPONENTS */}
-      {/* <GenericCard title="Hellow World" imageName="userIcon" /> */}
+      {/* <GenericCard title="Hellow World" imageName="userIcon" />
+      <GenericCardComposition>
+        <img src={userIcon} alt="userIcon" srcset="" />
+        <h3>Titulo nuevo</h3>
+        <p>Descripción corta</p>        
+      </GenericCardComposition> */}
 
+      {/* SOLID PRINCIPLES */}
+      {/*  <SingleResponsability /> */}
+      {/* <OpenCloseButton /> */}
+      {/* <LiskovPrinciple /> */}
+      <InterfaceSegregation />
       </body>
     </div>
   );
